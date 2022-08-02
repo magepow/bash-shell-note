@@ -25,3 +25,6 @@ find "$(cd ..; pwd)" -type f -not -path '*/.*'
 
 # solution 5:
 find .. -type f -not -path '*/.*' -exec readlink -f {} \;
+
+# solution 6:
+find "${PWD%/*}" -type f -not -path '*/.*'
