@@ -19,3 +19,9 @@ find ~+ -type f -not -path '*/.*'
 
 # solution 4:
 find "$(cd ..; pwd)" -type f -not -path '*/.*'
+
+# or find "$(pwd -P)" -type f -not -path '*/.*'
+# or find `pwd -P` -type f -not -path '*/.*'
+
+# solution 5:
+find .. -type f -not -path '*/.*' -exec readlink -f {} \;
