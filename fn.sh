@@ -5,4 +5,5 @@ function myFunc {
     echo $result
 }
 
-echo "$(myFunc 'value1' 'value2')"
+resultFn="$(myFunc 'value1' 'value2')"
+echo $resultFn
