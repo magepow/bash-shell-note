@@ -6,3 +6,9 @@ find . -type d ! -name . | while read p;
         # do more somthing
     ); 
 done 
+
+# use read line from file:
+while read line
+do
+  echo $line
+done < ./readfile.sh
