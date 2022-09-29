@@ -25,6 +25,15 @@ function ListDirRecursive()
     echo $files
 }
 
+function ListDirRecursiveSameName()
+{
+    echo 'Result find recursively:'
+    files=`find . -type d -not -path '*/.*' | sed 's|^./||'`
+    echo $files
+}
+find . -type d -name ".git"
+
 ListDir
 ListDirHidden
 ListDirRecursive
+ListDirRecursiveSameName
