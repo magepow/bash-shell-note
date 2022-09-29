@@ -22,3 +22,4 @@ function gitListChange()
 }
 
 ListChange="$(gitListChange)"
+echo $ListChange
