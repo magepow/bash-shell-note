@@ -13,6 +13,11 @@ do
     echo $i
 done 
 
-echo 'Result Find:'
-files=`find . -type f -not -path '*/.*' | sed 's|^./||'`
+echo 'Result Find File:'
+files=`find . -type f -not -path '*/.*' | sort --version-sort | sed 's|^./||'`
 echo $files
+
+echo 'Result Find Directory:'
+files=`find . -type d ! -name . | sort --version-sort | sed 's|^./||'`
+echo $files
+
