@@ -1,5 +1,6 @@
 ## Bash Shell Notes
 
+* [The art of command line](https://github.com/jlevy/the-art-of-command-line)
 * [Simple bash scripts](https://github.com/ruanyf/simple-bash-scripts)
 * [Useful bash scripts](https://github.com/topics/useful-bash-scripts)
 * [Explain shell](https://explainshell.com)
