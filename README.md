@@ -1,3 +1,5 @@
+[<img src="https://github.com/magepow/themeforest/blob/master/shopify/shopify_affiliate.jpg" >](https://shopify.pxf.io/VyL446)
+
 ## Bash Shell Notes
 
 * [The art of command line](https://github.com/jlevy/the-art-of-command-line)
