@@ -8,3 +8,4 @@
 * [Explain shell](https://explainshell.com)
 * [What is the difference between ${var}, "$var", and "${var}" in the Bash shell?](https://stackoverflow.com/questions/18135451/what-is-the-difference-between-var-var-and-var-in-the-bash-shell)
 * [30_bash_script_examples](https://linuxhint.com/30_bash_script_examples)
+* [Run Arbitrarily Complex Commands Using sudo Over SSH](https://www.baeldung.com/linux/ssh-sudo-run-complex-commands)
