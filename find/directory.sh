@@ -17,6 +17,11 @@ echo 'Result Find File:'
 files=`find . -type f -not -path '*/.*' | sort --version-sort | sed 's|^./||'`
 echo $files
 
+printf %s "$files" | while IFS= read -r line
+do
+    echo "$line"
+done
+
 echo 'Result Find Directory:'
 files=`find . -type d ! -name . | sort --version-sort | sed 's|^./||'`
 echo $files
